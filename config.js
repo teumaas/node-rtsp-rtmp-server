@@ -4,6 +4,8 @@
 
   os = require('os');
 
+  console.log(process.env.PORT);
+
   module.exports = {
     //###########################
     /* Basic configurations */
@@ -12,7 +14,7 @@
     // Server listen port
     serverPort: process.env.PORT || 80,
     // RTMP server listen port
-    rtmpServerPort: process.env.PORT || 1935,
+    rtmpServerPort: 1935,
     // Server name which will be embedded in
     // RTSP and HTTP response headers.
     // Default server name is used when this value is null.
@@ -27,11 +29,11 @@
     // Enable RTSP server
     enableRTSP: true,
     // Enable RTMP/RTMPE server (not including RTMPT)
-    enableRTMP: true,
+    enableRTMP: false,
     // Enable RTMPT/RTMPTE server
-    enableRTMPT: true,
+    enableRTMPT: false,
     // Enable HTTP server
-    enableHTTP: true,
+    enableHTTP: false,
     // Enable custom protocol receiver
     enableCustomReceiver: true,
     /* Custom protocol receiver configurations */
