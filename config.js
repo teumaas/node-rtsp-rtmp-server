@@ -4,7 +4,7 @@
 
   os = require('os');
 
-  console.log(process.env.PORT);
+  console.log("Portnummer: " + process.env.PORT);
 
   module.exports = {
     //###########################
