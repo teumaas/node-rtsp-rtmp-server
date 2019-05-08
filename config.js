@@ -12,7 +12,7 @@
     //###########################
 
     // Server listen port
-    serverPort: process.env.PORT || 80,
+    serverPort: 80,
     // RTMP server listen port
     rtmpServerPort: 1935,
     // Server name which will be embedded in
