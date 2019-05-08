@@ -1,5 +1,5 @@
 {
-  "name": "node-rtsp-rtmp-server",
+  "name": "rtsp-rtmp-server",
   "version": "0.4.0",
   "description": "RTSP/RTMP/HTTP hybrid server",
   "author": "Nao Iizuka <iizuka@kyu-mu.net>",
@@ -9,10 +9,22 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "coffeescript": "^2.4.1",
     "ejs": "2.5.x",
     "sequent": ">= 0.1.2"
   },
   "engines": {
     "node": ">= 6.0.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teumaas/node-rtsp-rtmp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teumaas/node-rtsp-rtmp-server/issues"
+  },
+  "homepage": "https://github.com/teumaas/node-rtsp-rtmp-server#readme"
 }
